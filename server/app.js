@@ -10,6 +10,6 @@ app.use(express.static('dist'));
 
 app.get('/hello', (req, res) => {
   res.send('Hello');
-})
+});
 
 module.exports = app;
